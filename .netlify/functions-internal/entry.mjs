@@ -3439,10 +3439,10 @@ const fetchFonts = async () => {
     fontBold: fontBold2
   };
 };
-const {
-  fontRegular,
-  fontBold
-} = await fetchFonts();
+// const {
+//   fontRegular,
+//   fontBold
+// } = await fetchFonts();
 const ogImage = (text) => {
   return /* @__PURE__ */ jsxs("div", {
     style: {
