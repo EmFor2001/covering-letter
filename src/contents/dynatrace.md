@@ -6,6 +6,8 @@ slug: dynatrace-junior-react
 featured: true
 draft: false
 tags:
+  - junior
+  - react
 ogImage: ""
 description: Covering letter for Dynatrace (probably junior frontend dev)
 ---

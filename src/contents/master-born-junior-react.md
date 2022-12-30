@@ -6,6 +6,8 @@ slug: master-born-junior-react
 featured: true
 draft: false
 tags:
+  - junior
+  - react
 ogImage: ""
 description: Covering letter for MasterBorn Junior Frontend Developer (React.js)
 ---

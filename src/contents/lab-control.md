@@ -6,6 +6,8 @@ slug: lab-control-junior-react
 featured: true
 draft: false
 tags:
+  - junior
+  - react
 ogImage: ""
 description: Covering letter for LabControl Junior Frontend Developer position
 ---

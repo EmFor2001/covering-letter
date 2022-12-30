@@ -6,6 +6,8 @@ slug: voice-lab-junior-react
 featured: true
 draft: false
 tags:
+  - junior
+  - react
 ogImage: ""
 description: Covering letter for VoiceLab Junior Frontend Developer
 ---
