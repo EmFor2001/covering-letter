@@ -22,9 +22,12 @@ const prev = pageNum > 1 ? "" : "disabled";
 const next = pageNum < totalPages ? "" : "disabled";
 ---
 
-<Layout title={`Posts | ${SITE.title}`}>
-  <Header activeNav="posts" />
-  <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
+<Layout title={`Covering letters | ${SITE.title}`}>
+  <Header activeNav="covering-letters" />
+  <Main
+    pageTitle="Covering letters"
+    pageDesc="All the Covering letters I've posted."
+  >
     <ul>
       {
         posts.map(({ frontmatter }) => {
