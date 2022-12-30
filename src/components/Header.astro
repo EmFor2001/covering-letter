@@ -7,7 +7,7 @@ import logoPNG from "/assets/logo.png";
 import logoSVG from "/assets/logo.svg";
 
 export interface Props {
-  activeNav?: "posts" | "tags" | "about" | "search";
+  activeNav?: "posts" | "tags" | "about" | "search" | "covering-letters";
 }
 
 const { activeNav } = Astro.props;
@@ -102,8 +102,8 @@ const { activeNav } = Astro.props;
       </nav>
     </div>
   </div>
-  <Hr />
 </header>
+<Hr />
 
 <style>
   #skip-to-content {
@@ -116,6 +116,7 @@ const { activeNav } = Astro.props;
     @apply relative w-full p-4 sm:py-8 flex justify-between items-start sm:items-center;
   }
   .logo {
+    width: 150px;
     @apply absolute sm:static font-semibold text-xl sm:text-2xl py-1;
   }
   .hamburger-menu {
